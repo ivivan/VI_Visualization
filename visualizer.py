@@ -276,8 +276,6 @@ if __name__ == '__main__':
     st.sidebar.markdown("3. Check Visulization")
     st.sidebar.markdown("---")
 
-    # model_structure = st.sidebar.button("Show Model Structure")
-
     st.header('VI Visualizer')
     st.subheader("Upload VI Data")
     # k = st.number_input("Maximum No. of Rows to Read", min_value=10,
