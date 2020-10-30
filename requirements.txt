@@ -1,0 +1,4 @@
+
+numpy
+streamlit==0.67.1
+altair==4.1.0
