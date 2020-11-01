@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
         st.subheader("Plot single VI")
         ndvi_nrow = st.number_input(
-            "Pick up a row", min_value=0, max_value=max_row, step=1, value=0, key='singleinput')
+            "Pick up a row", min_value=0, max_value=rows, step=1, value=0, key='singleinput')
         picked_ndvi = data.iloc[ndvi_nrow]
         show_ndvi = st.button("Show single VI")
         if show_ndvi:
